@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="mapper.ReplyMapper">
+    <insert id="addReply" parameterType="Reply" keyProperty="int">
+        insert into reply( comment, name, email, url, aid) value (#{comment},#{name}
+        ,#{email},#{url},#{cid})
+    </insert>
+</mapper>

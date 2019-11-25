@@ -1,0 +1,38 @@
+#content-body{
+    margin-top: 10px;
+    padding:20px;
+    background-color: #FFFFFF;
+    margin-left: 365px;
+    width: 800px;
+    border: 1px solid #efefef;
+}
+#title-box{
+    padding-bottom: 10px;
+
+}
+#title-box input{
+    background-color: #efefef;
+}
+#content-box-top{
+    background-color: #f8f8f8;
+    height: 40px;
+    padding: 8px 16px;
+}
+#content-box{
+
+}
+
+#more{
+    margin-top: 40px;
+    margin-left: 10px;
+}
+/*icon*/
+.cke_button_icon {
+    font-size: 20px;
+    cursor: inherit;
+    background-repeat: no-repeat;
+    float: left;
+    display: inline-block;
+    margin-left: 20px;
+    font-weight: bold;
+}
