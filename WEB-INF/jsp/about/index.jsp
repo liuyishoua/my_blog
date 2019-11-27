@@ -145,7 +145,7 @@
                                         <td><strong>获  奖</strong>：2019团体程序设计天梯赛“<a href="/images/tiantisai.pdf" rel="external nofollow" target="_blank">江西省团队三等奖</a>”</td>
                                     </tr>
                                     <tr>
-                                        <td><strong>个人网站</strong>：<a href="https://www.liuyishou.site:8080/index?p=1">liuyishou.site</a></td>
+                                        <td><strong>个人网站</strong>：<a href="/index?p=1">liuyishou.site</a></td>
                                         <td>     第十届l蓝桥杯大赛”<a href="/images/lanqiaobei.pdf" rel="external nofollow" target="_blank">江西省B组二等奖</a>“</td>
                                     </tr>
                                     <tr>
@@ -161,7 +161,7 @@
                                 <p>  现于南昌航空大学计算机科学与技术专业进行本科学习，将于2021年6月毕业。课余之外对网络安全，acm算法比赛有所研究</p>
                                 <p>  欢迎各位浏览本站，本网站借鉴 <a href="https://www.imcyc.cn/">Motty</a> 前端页面进行开发，
                                     本站后台数据库均由自己维护。本站评论模块与友链仍未完善，就这样吧，有时间再来完善。第一次使用ssm框架开发项目，开发后期逐渐发现之前开发思路与模式不佳，
-                                    可维护性不强。项目源码已发布到 <a href="https://github.com/liuyishoua/my_blog">github</a> ，欢迎查看。如有侵权，请予通知。</p>
+                                    可维护性不强。项目源码已发布到 <a href="https://github.com/liuyishoua/my_blog" target="_blank">github</a> ，欢迎查看。如有侵权，请予通知。</p>
                             </div>
                         </div>
                     </div>
@@ -187,21 +187,9 @@
             <div id="sidebar-dimmer"></div>
         </div>
     </main>
-    <footer id="footer" class="footer">
-        <div class="footer-inner">
-            <div class="copyright">&copy; <span itemprop="copyrightYear">2019</span> <span class="with-love" id="animate"> <i
-                    class="fa fa-heart"></i> </span> <span class="author" itemprop="copyrightHolder">Spr Chan</span> <span class="post-meta-divider">|</span>
-                <span class="post-meta-item-icon"> <i class="fa fa-area-chart"></i> </span> <span class="post-meta-item-text">站点总字数：</span>
-                <span title="站点总字数">97k</span> </div>
-            <div class="busuanzi-count">
-                <script async src="https://busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script> <span class="post-meta-item-icon">
-							<i class="fa fa-user"></i> </span> <span class="site-uv" title="总访客量"> 站点总访客数：<span class="busuanzi-value" id="busuanzi_value_site_uv"></span>
-						</span> <span class="post-meta-divider">|</span> <span class="post-meta-item-icon"> <i class="fa fa-eye"></i>
-						</span> <span class="site-pv" title="总访问量"> 站点总访问量：<span class="busuanzi-value" id="busuanzi_value_site_pv"></span>
-						</span>
-            </div>
-        </div>
-    </footer>
+
+    <%@include file="/include/footer.jsp"%>
+
 </div>
 <script size="300" alpha="0.6" zindex="-1" src="lib/canvas-ribbon/canvas-ribbon.js"></script>
 <script src="lib/jquery/index.js"></script>

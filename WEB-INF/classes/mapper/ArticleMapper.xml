@@ -12,8 +12,8 @@
     </select>
 <!--    keyproperty表示插入的返回值，插入多少条返回几-->
     <insert id="addPublish" parameterType="Article" keyProperty="int">
-        insert into article(title, content, publish_time, update_time, category, cid)
-        value (#{title},#{content},now(),now(),#{category},(select id from category
+        insert into article(title, content,sub_content, publish_time, update_time, category, cid)
+        value (#{title},#{content},#{sub_content},now(),now(),#{category},(select id from category
         where category.name=#{category}))
     </insert>
     <select id="getArticle" parameterType="int" resultMap="ArticleBean">
@@ -33,6 +33,7 @@
         <id column="aid" property="id"></id>
         <result column="title" property="title"></result>
         <result column="content" property="content"></result>
+        <result column="sub_content" property="sub_content"></result>
         <result column="publish_time" property="publish_time"></result>
         <result column="update_time" property="update_time"></result>
         <result column="category" property="category"></result>

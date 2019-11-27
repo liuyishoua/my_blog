@@ -33,8 +33,8 @@
                         <span class="site-state-item-name">分类</span> </a></div>
                 </nav>
                 <div class="links-of-author motion-element"> <span class="links-of-author-item">
-                                <a href="https://github.com/liuyishoua/sfkbbs"
-                                   title="GitHub &rarr; https://github.com/liuyishoua/sfkbbs" rel="external nofollow"
+                                <a href="https://github.com/liuyishoua/my_blog"
+                                   title="GitHub &rarr; https://github.com/liuyishoua/my_blog" rel="external nofollow"
                                    target="_blank"><i class="fa fa-fw fa-github"></i></a>
 										</span> <span class="links-of-author-item"> <a href="mailto:1813120647@qq.com"
                                                                                        title="邮箱 &rarr; mailto:1813120647@qq.com"

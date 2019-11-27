@@ -154,21 +154,9 @@
             <div id="sidebar-dimmer"></div>
         </div>
     </main>
-    <footer id="footer" class="footer">
-        <div class="footer-inner">
-            <div class="copyright">&copy; <span itemprop="copyrightYear">2019</span> <span class="with-love" id="animate"> <i
-                    class="fa fa-heart"></i> </span> <span class="author" itemprop="copyrightHolder">Spr Chan</span> <span class="post-meta-divider">|</span>
-                <span class="post-meta-item-icon"> <i class="fa fa-area-chart"></i> </span> <span class="post-meta-item-text">站点总字数：</span>
-                <span title="站点总字数">97k</span> </div>
-            <div class="busuanzi-count">
-                <script async src="https://busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script> <span class="post-meta-item-icon">
-							<i class="fa fa-user"></i> </span> <span class="site-uv" title="总访客量"> 站点总访客数：<span class="busuanzi-value" id="busuanzi_value_site_uv"></span>
-						</span> <span class="post-meta-divider">|</span> <span class="post-meta-item-icon"> <i class="fa fa-eye"></i>
-						</span> <span class="site-pv" title="总访问量"> 站点总访问量：<span class="busuanzi-value" id="busuanzi_value_site_pv"></span>
-						</span>
-            </div>
-        </div>
-    </footer>
+
+    <%@include file="/include/footer.jsp"%>
+
 </div>
 <script>
     if (Object.prototype.toString.call(window.Promise) !== '[object Function]') {

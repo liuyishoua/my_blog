@@ -38,10 +38,14 @@
     <hr>
     <div id="content-body">
         <form action="/addPublish" method="post">
-            <div id="title-box">
-                <div class="input-group">
-                    <span class="input-group-addon" id="sizing-addon2">@</span>
+            <div id="title-box" >
+                <div class="input-group" style="padding: 10px">
+                    <span class="input-group-addon" id="sizing-addon2">标题</span>
                     <input type="text" class="form-control" placeholder="输入文章标题" name="title">
+                </div>
+                <div class="input-group">
+                    <span class="input-group-addon">子内容</span>
+                    <input type="text" class="form-control" placeholder="子内容：内容一部分，方便页面显示" name="sub_content" maxlength="130">
                 </div>
             </div>
             <div id="editor">

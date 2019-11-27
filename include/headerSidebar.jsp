@@ -30,15 +30,15 @@
                 <%--选定active--%>
                 $(function () {
                     let url = $(location).attr("href");
-                    if (url=="http://localhost:8080/index?p=1"){
+                    if (url=="http://www.liuyishou.site:8080/index?p=1"){
                         $("#menu li").eq(1).attr("class","menu-item menu-item-home menu-item-active");
-                    }else if(url=="http://localhost:8080/category"){
+                    }else if(url=="http://www.liuyishou.site:8080/category"){
                         $("#menu li").eq(2).attr("class","menu-item menu-item-categories menu-item-active");
-                    }else if (url=="http://localhost:8080/archives"){
+                    }else if (url=="http://www.liuyishou.site:8080/archives"){
                         $("#menu li").eq(3).attr("class","menu-item menu-item-archives menu-item-active");
-                    }else if (url=="http://localhost:8080/about"){
+                    }else if (url=="http://www.liuyishou.site:8080/about"){
                         $("#menu li").eq(4).attr("class","menu-item menu-item-about menu-item-active");
-                    }else if (url=="http://localhost:8080/friendlink"){
+                    }else if (url=="http://www.liuyishou.site:8080/friendlink"){
                         $("#menu li").eq(5).attr("class","menu-item menu-item-friendlink menu-item-active");
                     }else {
                         $("#menu li").eq(6).attr("class","menu-item menu-item-search menu-item-active");
